@@ -11,3 +11,5 @@ C:\react\typescript-course>npm install -g typescript
 tsc command
 C:\react\typescript-course>tsc using-ts.ts
 C:\react\typescript-course>tsc app.ts
+
+C:\react\typescript-course>npm init
