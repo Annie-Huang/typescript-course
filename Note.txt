@@ -1,5 +1,10 @@
 https://www.youtube.com/watch?v=BwuLxPH8IDs&t=2016s
-
 https://github.com/Annie-Huang/typescript-course
 
+https://www.typescriptlang.org/index.html
+https://www.typescriptlang.org/index.html#download-links
+
+
 ============================================================
+C:\react\typescript-course>npm install -g typescript
+
