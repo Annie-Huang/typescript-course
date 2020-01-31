@@ -3,9 +3,10 @@ https://github.com/Annie-Huang/typescript-course
 
 https://www.typescriptlang.org/index.html
 https://www.typescriptlang.org/index.html#download-links
-
+https://www.npmjs.com/package/lite-server
 
 ============================================================
+
 C:\react\typescript-course>npm install -g typescript
 
 tsc command
@@ -14,3 +15,13 @@ C:\react\typescript-course>tsc app.ts
 
 C:\react\typescript-course>npm init
 C:\react\typescript-course>npm install --save-dev lite-server
+
+lite-server:
+----------------
+[Browsersync] Access URLs:
+ --------------------------------------
+       Local: http://localhost:3000
+    External: http://192.168.1.104:3000
+ --------------------------------------
+          UI: http://localhost:3001
+ UI External: http://localhost:3001
