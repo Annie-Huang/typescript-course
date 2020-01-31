@@ -8,3 +8,5 @@ https://www.typescriptlang.org/index.html#download-links
 ============================================================
 C:\react\typescript-course>npm install -g typescript
 
+tsc command
+C:\react\typescript-course>tsc using-ts.ts
