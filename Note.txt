@@ -25,3 +25,9 @@ lite-server:
  --------------------------------------
           UI: http://localhost:3001
  UI External: http://localhost:3001
+
+
+Typescript by default doesn't stop compilation even though it show error in compile
+
+JavaScript uses "dynamic types" (resolved at runtime),
+TypeScript uses "static types" (set during development)
