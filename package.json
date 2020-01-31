@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Annie-Huang/typescript-course/issues"
   },
-  "homepage": "https://github.com/Annie-Huang/typescript-course#readme"
+  "homepage": "https://github.com/Annie-Huang/typescript-course#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
