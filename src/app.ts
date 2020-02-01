@@ -8,6 +8,16 @@ button.addEventListener('click', () => {
     console.log('Clicked!');
 });
 
+// // If you don't want !, then you can handle it by wrapped into a if conditional check
+// const button1 = document.querySelector('button');
+// if (button1) {
+//     button1.addEventListener('click', () => {
+//         console.log('Clicked!');
+//     });
+// }
+
+
+
 // because we set
 // "target": "es6",
 // and comment out // "lib": [],
