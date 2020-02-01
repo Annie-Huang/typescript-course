@@ -14,3 +14,4 @@ button.addEventListener('click', () => {
 // plus all DOM element, so you can just access document, querySelector etc.
 // Some of the es6 features include:
 const map = new Map();
+//# sourceMappingURL=app.js.map

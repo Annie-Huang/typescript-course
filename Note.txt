@@ -40,3 +40,6 @@ Typescript by default doesn't stop compilation even though it show error in comp
 
 JavaScript uses "dynamic types" (resolved at runtime),
 TypeScript uses "static types" (set during development)
+
+declaration and declarationMap are important in tsconfig.json if you ship your project as a library.
+
