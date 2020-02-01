@@ -2,11 +2,24 @@
 //     name: string;
 //     age: number;
 // } = {
-const person = {
+const person: {
+    name: string;
+    age: number;
+    hobbies: string[];
+    role: [number, string];  // Tuple  type
+} = {
+// const person = {
     name: 'Maximilian',
     age: 30,
     hobbies: ['Sports', 'Cooking'],
+    role: [2, 'author']
 };
+
+// You can see the following does not throw error
+// person.role.push('admin');
+// person.role[1] = 10;
+// person.role = [0, 'admin', 'user'];
+
 
 // let favouriteActivities: any[];
 // favouriteActivities = ['Sports',1];

@@ -4,6 +4,7 @@ https://github.com/Annie-Huang/typescript-course
 https://www.typescriptlang.org/index.html
 https://www.typescriptlang.org/index.html#download-links
 https://www.npmjs.com/package/lite-server
+https://www.typescriptlang.org/docs/handbook/basic-types.html#tuple
 
 ============================================================
 
