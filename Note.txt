@@ -19,6 +19,9 @@ C:\react\typescript-course>tsc app.ts
 C:\react\typescript-course>npm init
 C:\react\typescript-course>npm install --save-dev lite-server
 
+C:\react\typescript-course>tsc app.ts --watch           << or tsc app.ts -w
+
+
 lite-server:
 ----------------
 [Browsersync] Access URLs:
