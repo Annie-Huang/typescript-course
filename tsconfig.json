@@ -62,5 +62,14 @@
 
     /* Advanced Options */
     "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
-  }
+  },
+  "exclude": [
+      "analytics.ts",
+      "FilesUpTo34Mins/using-ts.ts",
+      "basics.ts",
+      "functions.ts",
+      "objs-arrays-enums.ts",
+      "union-aliases.ts",
+      "unknown-never.ts"
+  ]
 }
