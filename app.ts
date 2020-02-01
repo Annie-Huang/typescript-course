@@ -39,8 +39,11 @@ const person = {
 
 // let favouriteActivities: any[];
 // favouriteActivities = ['Sports',1];
-let favouriteActivities: string[];
+// let favouriteActivities: string[];
+// favouriteActivities = ['Sports'];
+let favouriteActivities: any[];     // you should avoid any, it basically doesn't do any check
 favouriteActivities = ['Sports'];
+
 
 console.log(person.name);
 

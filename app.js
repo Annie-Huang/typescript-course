@@ -37,7 +37,9 @@ var person = {
 // person.role = [0, 'admin', 'user'];
 // let favouriteActivities: any[];
 // favouriteActivities = ['Sports',1];
-var favouriteActivities;
+// let favouriteActivities: string[];
+// favouriteActivities = ['Sports'];
+var favouriteActivities; // you should avoid any, it basically doesn't do any check
 favouriteActivities = ['Sports'];
 console.log(person.name);
 for (var _i = 0, _a = person.hobbies; _i < _a.length; _i++) {
