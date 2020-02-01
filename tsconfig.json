@@ -64,6 +64,9 @@
     "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
   },
   "exclude": [
+      "node_modules", // if you don't have exclude list, it would be exclude by default. But if you got exclude section, you will need to specifically add node_modules
+      "**/*.dev.ts",
+      "*.dev.ts",
       "analytics.ts",
       "FilesUpTo34Mins/using-ts.ts",
       "basics.ts",
