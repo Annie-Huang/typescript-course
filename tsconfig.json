@@ -80,8 +80,8 @@
       "unknown-never.ts"
   ],
   "include": [
-      "app.ts",
-      "analytics.ts"
+      "src/app.ts",
+      "src/analytics.ts"
   ]
 //  "files": [
 //      "app.ts"  // files is similar to include except that it would not do directory name
