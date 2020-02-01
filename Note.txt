@@ -20,7 +20,7 @@ C:\react\typescript-course>npm init
 C:\react\typescript-course>npm install --save-dev lite-server
 
 C:\react\typescript-course>tsc app.ts --watch           << or tsc app.ts -w
-
+C:\react\typescript-course>tsc --init                   << create tsconfig.json file
 
 lite-server:
 ----------------
