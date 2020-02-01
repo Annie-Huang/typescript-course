@@ -1,5 +1,5 @@
 "use strict";
-var age;
+let age;
 age = 30;
-var userName = 'Maximilian';
+const userName = 'Maximilian';
 console.log(userName);
