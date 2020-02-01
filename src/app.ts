@@ -3,10 +3,10 @@
 // const userName = 'Maximilian';
 // console.log(userName);
 
-const button = document.querySelector('button')!;
-button.addEventListener('click', () => {
-    console.log('Clicked!');
-});
+// const button = document.querySelector('button')!;
+// button.addEventListener('click', () => {
+//     console.log('Clicked!');
+// });
 
 // // If you don't want !, then you can handle it by wrapped into a if conditional check
 // const button1 = document.querySelector('button');
@@ -15,6 +15,17 @@ button.addEventListener('click', () => {
 //         console.log('Clicked!');
 //     });
 // }
+
+const button = document.querySelector('button')!;
+
+function clickHandler(message: string) {
+    console.log('Clicked! ' + message);
+}
+// a comment
+if (button) {
+    // button.addEventListener('click', clickHandler.bind(null));
+    button.addEventListener('click', clickHandler.bind(null, "You're welcome!"));
+}
 
 
 
