@@ -16,6 +16,8 @@
 //     });
 // }
 
+// It allow Unused global variable.
+let appId = 'abc';
 const button = document.querySelector('button')!;
 
 function clickHandler(message: string) {
@@ -23,7 +25,7 @@ function clickHandler(message: string) {
 }
 // a comment
 if (button) {
-    let userName = 'Max';
+    // let userName = 'Max';
 
     // button.addEventListener('click', clickHandler.bind(null));
     button.addEventListener('click', clickHandler.bind(null, "You're welcome!"));
